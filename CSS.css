@@ -1,0 +1,668 @@
+
+        @font-face{
+            src: url(./Andy-Bold/Andy-Bold.ttf);
+            font-family: Andy-Bold;
+        }
+        body{
+           font-family: Andy-Bold; 
+           background-image: url("./Images/Background.png");
+           background-size:cover;          
+           background-repeat: no-repeat;
+        }
+        header .logo{
+            display: flex;
+            justify-content: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+            height: auto;
+        }
+        main{
+            color: rgb(19, 19, 19);
+            display: flex;
+            margin-top: 30px;
+            margin-left: auto;
+            margin-right: auto;
+            flex-direction: column;      
+            background-color: rgb(87, 60, 52);
+            height: auto;
+            width: 80%;
+            border-radius: 12px;
+        }
+        .HeadingBlocks{
+            color: rgb(174, 204, 243);
+            text-shadow:2px 2px 5px rgb(31, 48, 64);
+            display: flex;
+            width: auto;
+            height: auto;
+        }
+        .GolfBall{
+            margin-left: 60px;
+            margin-right: 60px;
+            margin-top: 60px;
+            width: 7%;
+            height: 7%;
+        }
+        .UpperText{
+            margin-top: 50px;
+            text-transform: uppercase;
+            display: flex;
+            width: 80%;
+            height: auto;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: 3.5em;
+            border-bottom: solid 2px rgb(51, 35, 10);;
+        }
+        .BottomText{
+            margin-top: 70px;
+            margin-left: auto;
+            margin-right: auto;
+            row-gap: 4% ;
+            column-gap: 1%;
+            display: grid;
+            grid-template-columns: 28% 48% 20%;
+            grid-template-rows: 12% 12% 12% 12% 12% 12% ;
+            text-shadow:1px 1px 2px rgb(23, 23, 23);
+            line-height: 40px;
+        }      
+        .BlockHere{
+            margin-left: 10%;
+            display: flex;
+            flex-direction: row;
+            
+        }
+        .Dirt{
+            color: rgb(153, 107, 74);
+            text-shadow:5px 5px 5px rgb(24, 22, 5);
+            font-size: 2.1em;
+            margin-top: 25px;
+        }
+        .Solid{
+            color: rgb(126, 126, 126);
+            text-shadow:5px 5px 5px rgb(23, 23, 23);
+            margin-top: 25px;
+            font-size: 2.1em;
+        }
+        .Sand{
+            color: rgb(208, 195, 102);
+            text-shadow:5px 5px 5px rgb(61, 46, 22);
+            margin-top: 25px;
+            font-size: 2.1em;
+        }
+        .Liquid{
+            color: rgb(9, 61, 190);
+            text-shadow:2px 2px 2px rgb(9, 9, 37);
+            margin-top: 25px;
+            font-size: 2.1em;
+        }
+        .Ice{
+            color: rgb(196, 210, 255);
+            text-shadow:5px 5px 5px rgb(27, 95, 176);
+            margin-top: 25px;
+            font-size: 2.1em;
+        }
+        .Honey{
+            color: rgb(240, 137, 0);
+            text-shadow:5px 5px 5px rgb(90, 53, 2);
+            margin-top: 25px;
+            font-size: 2.1em;
+        }
+        .Block{
+            
+            margin-top: 7px;
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+        }
+        .BlockDescription{
+            color: rgb(174, 204, 243);
+        }
+        .LiquidBlock{
+            border: solid 4px rgb(13, 25, 49);
+            width: 50px;
+            height: 50px;
+            margin-right: 20px;
+            margin-top: 7px;
+        }
+        .BlockText .BlockDescription{
+            font-size: 24px;
+            line-height: 27px;
+
+        }
+        .BlockNature{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .wires{
+            color: rgb(174, 204, 243);
+            margin-top: 20px;
+            border: double red 4px;
+            background-color: rgb(87, 60, 52);
+            height: auto;
+            width: 80%;
+            border-radius: 12px;         
+            margin-left: auto;
+            margin-right: auto;
+            display: flex;
+            flex-direction: column;
+        }
+        .WiresText{
+            text-shadow:2px 2px 2px rgb(31, 48, 64);
+            margin-top: 40px;
+            margin-left: 50px;
+            margin-bottom: 150px;
+            column-gap: 3%;
+            row-gap: 15%;
+            display: grid;
+            grid-template-columns: 31% 57%;
+            grid-template-rows: 110px 110px 110px;
+        }
+        .timers{   
+            font-size: 25px;
+        }
+        .timers p{   
+            margin-top: 13px;  
+            font-size: 1.2em;
+        }
+        .PerssurePlates{
+            font-size: 1.6em;
+        }
+        .PerssurePlates p{
+            margin-top: 13px;  
+            font-size: 1.2em;    
+        }
+        .ConveyorBelts{
+            font-size: 25px;
+        }
+        .ConveyorBelts p{
+            margin-top: 13px; 
+            font-size: 1.2em;   
+        }
+        .TText{
+            line-height: 25px;
+            margin-left: 20px;
+            
+            font-size: 21px;
+        }
+        .PPText{
+            line-height: 25px;
+            margin-left: 20px;
+            
+            font-size: 21px;
+        }
+        .CBText{
+            line-height: 25px;
+            margin-left: 20px;
+            
+            font-size: 21px;
+        }
+        .Galery{
+            text-shadow:5px 5px 5px rgb(23, 23, 23);
+            color: rgb(174, 204, 243);
+            display: flex;
+            flex-direction: column;
+            border-radius: 12px;         
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 60px;
+            width: 80%;
+            height: auto;
+            background-color: rgb(87, 60, 52);
+            align-content: center;
+            justify-content: center;
+            font-size: 2em; 
+            margin-bottom: 10%;
+        }
+        .Galery h1{  
+            font-size: 3em;
+            text-shadow:5px 5px 5px rgb(23, 23, 23);
+            margin-left: auto;
+            margin-right: auto;
+            text-transform: uppercase;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .BigMap{
+            width: 80%;
+            height: auto;
+            overflow: hidden;
+            display: flex;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 20px;
+        }
+        .SelectedMap{
+            width: 100%;
+            height: 700px;
+        }
+        .Selection{
+            margin-top: 30px;
+            overflow: hidden;
+            display: grid;
+            gap: 5px;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            grid-template-columns: 19% 19% 19% 19% 19%;
+            grid-template-rows: 28% 18% 24%
+        }
+        .GridSelection{
+            margin-left: auto;
+            margin-right: auto;
+            width: 90%;
+            height: auto;
+        }
+        .map{
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }   
+        .map:hover{
+            opacity: 0.8;
+        }
+        .MapActive{
+            overflow: hidden;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+        .MapActive:hover{
+            opacity: 0.8;
+            
+        }
+        .MapInfo{
+            text-shadow:2px 2px 2px rgb(23, 23, 23);
+            font-size: 20px;
+        } 
+        .Selection a{
+            
+            color: rgb(85, 130, 189);
+        }
+        .download{
+            font-size: 17px;
+        }
+        @media  (max-width:1380px){
+            .MapName{
+                font-size: 22px;
+            }
+            .Galery h1{
+                font-size: 60px;
+            }
+            .Selection{
+                grid-template-rows: 20% 16% 40%;
+                grid-template-columns: 19% 19% 19% 19% 19%;
+                gap: 5px;
+            }
+            .TText{
+                font-size: 14px;
+            }
+            .PPText{
+                font-size: 14px;
+            }
+            .CBText{
+                font-size: 14px;
+            }
+            .WiresText{
+                grid-template-columns: 30% 60%;
+            }
+            .PerssurePlates p{
+                font-size: 20px;
+            }
+            .ConveyorBelts p{
+                font-size: 20px;
+            }
+            .timers p{
+                font-size: 20px;
+            }
+            .Block{
+                width: 50px;
+                height: 50px;
+            }
+            .Dirt{
+                font-size: 17px;
+            }
+            .Sand{
+                font-size: 17px;
+            }
+            .Solid{
+                font-size: 17px;
+            }
+            .Liquid{
+                font-size: 17px;
+            }
+            .Ice{
+                font-size: 17px;
+            }
+            .Honey{
+                font-size: 17px;
+            }
+            .BlockNature{
+                border-radius: 8px;
+            }
+            .BottomText{
+                grid-template-columns: 29% 47% 20%;
+            }
+            .BlockText .BlockDescription{
+                font-size: 17px;
+            }
+            .UpperText{
+                font-size: 26px;
+            }
+            .GolfBall{
+                width: 10%;
+                height: 10%;
+            }
+            .MapActive{
+                height: 100%;
+                width: 100%;
+            }
+            .map{
+                width: 100%;
+                height: 100%;
+            }
+            .SelectedMap{
+                width: 100%;
+                height: 100%;
+            }
+            .download{
+                font-size: 15px;
+            }
+        }
+        @media (max-width: 840px){
+            
+            .logo{
+                margin-top: 20px;
+            }
+            main{
+                width: 96%;
+            }
+            .UpperText{
+                font-size: 1.5em;
+            }
+            .GolfBall{
+                width: 14%;
+                height: 14%; 
+            }
+            .BlockNature{
+                border-radius: 10px;
+            }
+            .BlockHere .Dirt{
+                margin-top: 0px;
+            }
+            .BlockHere .Solid{
+                margin-top: 0px;
+            }
+            .BlockHere .Sand{
+                margin-top: 0px;
+            }
+            .BlockHere .Liquid{
+                margin-top: 0px;
+            }
+            .BlockHere .Ice{
+                margin-top: 0px;
+            }
+            .BlockHere .Honey{
+                margin-top: 0px;
+            }
+            .Block{
+                width: 40px;
+                height: 40px;
+            }
+            .Dirt{
+                font-size: 1em;
+            }
+            .Sand{
+                font-size: 1em;
+            }
+            .Solid{
+                font-size: 1em;
+            }
+            .Liquid{
+                font-size: 1em;
+            }
+            .Ice{
+                font-size: 1em;
+            }
+            .Honey{
+                font-size: 1em;
+            }
+            .BlockText .BlockDescription{
+                font-size: 14px;
+            }
+            .wires{
+                width: 96%;
+            }
+            .timers p{
+                font-size: 20px;
+            }
+            .PerssurePlates p{
+                font-size: 20px;
+            }
+            .ConveyorBelts p{
+                font-size: 20px;
+            }
+            .TText p{
+                font-size: 14px;
+            }
+            .PPText p{
+                font-size: 14px;
+            }
+            .CBText p{
+                font-size: 14px;
+            }
+            .Galery{
+                width: 96%;
+            }
+            .Galery h1{
+                font-size: 40px;
+            }
+            .BigMap{
+                width: 96%;
+                height: 400px;
+            }
+            .SelectedMap{
+                width: 100%;
+                height: 100%;
+            }
+            .MapActive{
+                width: 100%;
+                height: 100%;
+            }
+            .GridSelection{
+                width: 96%;
+                height: 350px;
+            }
+            .Selection{
+                width: 100%;
+            }
+            .map{
+                width: 100%;
+                height: 100%;
+            }
+            .MapInfo{
+                font-size: 14px;
+            }
+            .MapName{
+                font-size: 22px;
+            }
+            .Selection{
+                gap: 5px;
+                grid-template-columns: 19% 19% 19% 19% 19%;
+                grid-template-rows: 28% 15% 17%; 
+                height: 400px;
+            }
+            .download{
+                font-size: 13px;
+            }
+
+        }
+        @media (max-width: 630px){
+            body{
+                background-image: url("./Images/Background-small.jpg");
+                background-repeat: repeat;
+            }
+            .logopicture{
+                width: 300px;
+            }
+            main{
+                height: auto;
+            }
+            .GolfBall{
+                width: 11%;
+                height: 58%;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin-top: 13px;
+            }
+            .UpperText{
+                font-size: 16px;
+                margin-top: 13px;
+                margin-bottom: 10px;
+            }
+            .BottomText{
+                height: auto;
+                margin-top: 10px;
+                gap: 23px;
+                grid-template-columns: 100%;
+                grid-template-rows: 2% 5% 7% 2% 5% 7% 2% 5% 7% 2% 5% 7% 2% 4% 7% 2% 5% 7% 2% 5% 7%;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+            .BlockNature{
+                border-radius: 20px;
+            }
+            .Block{
+                width: 10%;
+                height: 55%;
+            }
+            .BlockHere .Dirt{
+                margin-top: 0px;
+            }
+            .BlockHere .Solid{
+                margin-top: 0px;
+            }
+            .BlockHere .Sand{
+                margin-top: 0px;
+            }
+            .BlockHere .Liquid{
+                margin-top: 0px;
+            }
+            .BlockHere .Ice{
+                margin-top: 0px;
+            }
+            .BlockHere .Honey{
+                margin-top: 0px;
+            }
+            .Dirt{
+                font-size: 20px;
+            }
+            .Sand{
+                font-size: 20px;
+            }
+            .Solid{
+                font-size: 20px;
+            }
+            .Liquid{
+                font-size: 20px;
+            }
+            .Ice{
+                font-size: 20px;
+            }
+            .Honey{
+                font-size: 20px;
+            }
+            .BlockText .BlockDescription{
+                font-size: 14px;
+            }
+            .wires{
+                width: 94.5%;
+                height: auto;
+            }
+            .WiresText{
+                text-shadow: 2px 2px 2px rgb(31, 48, 64);
+                margin-top: 20px;
+                column-gap: 0px;
+                margin-left: 0px;
+                row-gap: 3%;
+                grid-template-columns: 90%;
+                grid-template-rows: auto auto auto auto auto auto;
+            }
+            .timers p{
+                font-size: 17px;
+            }
+            .PerssurePlates p{
+                font-size: 17px;
+            }
+            .ConveyorBelts p{
+                font-size: 17px;
+            }
+            .TText p{
+                font-size: 14px;                
+            }
+            .TText{
+                margin-left: 0px;
+            }
+            .PPText{
+                margin-left: 0px;
+            }
+            .CBText{
+                margin-left: 0px;
+            }
+            .PPText p{
+                font-size: 14px;
+            }
+            .CBText p{
+                font-size: 14px;
+            }
+            .Galery{
+                width: 96%;
+                height: 500px;
+            }
+            .Galery h1{
+                margin-top: 0px;
+                font-size: 30px;
+            }
+            .BigMap{
+                width: 96%;
+                height: 200px;
+            }
+            .SelectedMap{
+                height: 200px;
+                width: 100%;
+            }
+            .GridSelection{
+                width: 96%;
+                height: 200px;
+            }
+            .Selection{
+                width: 100%;
+                gap: 1.2%;
+            }
+            .map{
+                width: 100%;
+                height: 100%;
+            }
+            .MapActive{
+                width: 100%;
+                height: 100%;
+            }
+            .MapInfo{
+                font-size: 10px;
+            }
+            .MapName{
+                font-size: 9px;
+            }
+            .Selection{
+                grid-template-columns: 19% 19% 19% 19% 19%;
+                grid-template-rows: 27% 12% 39%;
+                height: 200px;
+            }
+            .download{
+                font-size: 7px;
+            }
+            
+        }
+ 
